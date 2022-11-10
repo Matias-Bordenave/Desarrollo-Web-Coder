@@ -10,9 +10,17 @@ body {
 
 h1 {
     text-align: center;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h2 {
+    text-align: center;
     margin-bottom: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 
 p {
     margin-left: 10px;
@@ -22,57 +30,65 @@ p {
     text-align: center;
 }
 
-.nav__ul {
-    list-style-type: none;
+.nav-item {
+    font-size: 30px;
 }
 
-.nav__ul__li {
-    display: inline;
-    margin-left: 10px;
-    margin-right: 10px;
+.nav-item:hover {
+    font-size: 35px;
 }
 
-.nav {
-    padding-top: 10px;
-    margin-bottom: 10px;
-    width: 100%;
-    height: 50px;
-    text-align: right;
+.center {
+    display: flex;
+    justify-content: center;
 }
 
-.imagenes__imagen__central {
-    position: absolute;
-    margin: 300px;
-    margin-left: 550px;
-    margin-top: 25px;
-    width: 500px;
-    height: 600px;
+.imagen__inicio {}
+
+
+/* .icono__mate{
+    width: 80px;
+    height: 80px;
+    margin-top: 15px;
+}
+ */
+
+.icono__facebook {
+    width: 80px;
+    height: 80px;
+    margin: 15px;
 }
 
-.imagenes__imagen__lateral__derecha {
-    position: absolute;
-    margin: 250px;
-    margin-left: 10px;
-    width: 620px;
-    height: 295px;
+.icono__instagram {
+    width: 80px;
+    height: 80px;
+    margin: 15px;
 }
 
-.imagenes__imagen__lateral__izquierda {
-    position: absolute;
-    margin: 400px;
-    margin-left: 940px;
-    margin-right: 0px;
-    margin-top: 100px;
-    width: 400px;
-    height: 400px;
+.icono__twitter {
+    width: 80px;
+    height: 80px;
+    margin: 15px;
 }
 
+.icono__pinterest {
+    width: 80px;
+    height: 80px;
+    margin: 15px;
+}
+
+.icono__linkedin {
+    width: 80px;
+    height: 80px;
+    margin: 15px;
+}
 
 .footer {
     display: block;
-    margin-top: 100px;
     padding: 10px;
-    background-color: grey;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
 }
 
 .principal-text {
@@ -103,12 +119,13 @@ p {
     margin: auto;
 }
 
-@keyframes spin {
-    0% {
-        transform: rotate(0deg);
-    }
 
-    100% {
-        transform: rotate(360deg);
-    }
+.card {
+    width: 20rem;
+    margin: 50px 0px;
+}
+
+.card:hover {
+    transform: scale(1.04) rotate(1deg);
+    box-shadow: -5px -5px 15px;
 }

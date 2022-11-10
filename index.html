@@ -3,76 +3,93 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Tag de Viewport -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <!-- CDN de Bootstrap del CSS -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <!-- CDN de Bootstrap del JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script><!-- CDN de la librería de Jquery  -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-    <!-- CDN de la librería de Popper  -->
+    <meta charset="utf8">
+
+    <!-- BOOTSTRAP -->
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+        </script>
+
+    <!-- SEO -->
+    <meta name="description" content="Visita nuestra tienda. Podes encontrar todo tipo de productos relacionados al mate">
+    <meta name="keywords" content="mate, yerba, termo, yerbero, mochila matera, yerba mate">
+
     <link rel="stylesheet" href="./css/style.css">
     <title>Inicio</title>
 </head>
 
 <body>
 
-    <div class="container-fluid">
-        <nav class="nav navbar-expand-lg">
-            <button class="navbar-toggler" data-target="#menu" data-toggler="collapse" type="button">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="menu">
-                <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="./index.html">Inicio</a>
+
+            <div class="collapse navbar-collapse center" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="./index.html">Inicio</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item px-2">
                         <a class="nav-link" href="./pages/productos.html">Productos mas Vendidos</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item px-2">
                         <a class="nav-link" href="./pages/tips.html">Tips y Cuidados</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/cuenta.html">Mi Cuenta</a>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="./pages/cuenta.html">Mi cuenta</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item px-2">
                         <a class="nav-link" href="./pages/contactanos.html">Contactanos</a>
                     </li>
+<!--                     <a class="icono__mate"><img src="./assets/imagenes/iconos/icono-mate.png" alt="icono__mate"></a> -->
                 </ul>
             </div>
-    </div>
+
+        </div>
     </nav>
 
-    <div class="loader"></div>
+    <h1>¿Quienes Somos?</h1>
 
-    <h1 class="title">¿Quienes Somos?</h1>
+    <h2>Yerba Mate</h2>
 
-    <section class="quienes__somos">
-        <article class="quienes__somos__article">
+    <section>
+        <article>
             <div class="principal-text">
                 <br><br>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias facilis similique minus
                     necessitatibus sit sunt possimus voluptatem ut rerum. Ipsum iure ea similique eos, veritatis
                     voluptatem
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis quod, dolorem, repudiandae
-                    fugiat vel saepe itaque sit quae debitis autem id perspiciatis quam est, voluptas non? Sit non unde
+                    fugiat vel saepe itaque sit quae debitis autem id perspiciatis quam est, voluptas non? Sit non
+                    unde
                     fugit?
                 </p>
             </div>
         </article>
     </section>
+
+    <br>
 
     <!-- seccion de imagenes -->
-    <section class="imagenes">
-        <!-- imagen central -->
-        <img class="imagenes__imagen__central" src="./assets/imagenes/productos/mate.jpeg" alt="mate">
-        <!-- imagen lateral derecha -->
-        <img class="imagenes__imagen__lateral__derecha" src="./assets/imagenes/productos/mate 1.jpg" alt="mate">
-        <!-- imagen lateral izquierda -->
-        <img class="imagenes__imagen__lateral__izquierda" src="./assets/imagenes/productos/mate 2.jpg" alt="mate">
+    <section>
+        <div>
+            <!-- imagen inicio -->
+            <img class="imagen__inicio" src="./assets/imagenes/productos/mate 8.jpg" alt="mate8">
+        </div>
     </section>
 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br>
 
     <section class="quienes__somos">
         <article class="quienes__somos__article">
@@ -82,20 +99,29 @@
                     necessitatibus sit sunt possimus voluptatem ut rerum. Ipsum iure ea similique eos, veritatis
                     voluptatem
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis quod, dolorem, repudiandae
-                    fugiat vel saepe itaque sit quae debitis autem id perspiciatis quam est, voluptas non? Sit non unde
+                    fugiat vel saepe itaque sit quae debitis autem id perspiciatis quam est, voluptas non? Sit non
+                    unde
                     fugit?
                 </p>
             </div>
         </article>
     </section>
 
-        <footer class="footer">
-            <div>
-                <p>Terminos y Condiciones</p>
-                <p>Ayuda</p>
-                <p>Defensa del Consumidor</p>
-            </div>
-        </footer>
+    <footer class="footer">
+        <div>
+            <p>
+                <a href="./index.html">Inicio</a>
+                <a href="./pages/productos.html">Productos mas Vendidos</a>
+                <a href="./pages/tips.html">Tips y Cuidados</a>
+                <a href="./pages/cuenta.html">Mi cuenta</a>
+                <a href="./pages/contactanos.html">Contactanos</a>
+            </p>
+            <p>
+                Ⓒ 2022. Yerba Mate Company. Reservados todos los derechos
+                ar | prod | 47affb8573bf271e4505a3841c4d888305d932dc | 19/07/2022-10:00:01
+            </p>
+        </div>
+    </footer>
 
 </body>
 
