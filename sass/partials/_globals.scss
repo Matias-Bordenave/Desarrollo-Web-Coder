@@ -1,0 +1,70 @@
+@use "variables";
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+p {
+    margin-left: 10px;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+}
+
+
+.principal-text {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: variables.$textFontSize;
+    color: black;
+}
+
+section {
+    margin: 0px !important;
+    padding: 0px;
+}
+
+.text__cuenta {
+    padding: 100x;
+    text-align: center;
+}
+
+.color__header {
+    background-color: grey;
+    height: 250px;
+}
+
+.titulo_header {
+    text-align: center;
+    padding: 100px 0px 50px 0px;
+}
+
+
+.form {
+    margin: 50px 0px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: 5px 5px 10px;
+}
+
+.btn-outline-primary {
+    border-color: black;
+    color: black;
+
+    &:hover {
+        background-color: black;
+        color: white;
+        border-color: black;
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "preentrega3-matias-bordenave",
+  "version": "1.0.0",
+  "description": "Hola, este es mi primer repo. Bienvenidos a mi GitHub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matias-Bordenave/Desarrollo-Web-Coder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matias-Bordenave/Desarrollo-Web-Coder/issues"
+  },
+  "homepage": "https://github.com/Matias-Bordenave/Desarrollo-Web-Coder#readme"
+}
