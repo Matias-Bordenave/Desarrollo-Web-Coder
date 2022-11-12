@@ -1,3 +1,9 @@
-
 /* tamaño de fuente para texto */
-$textFontSize: 30px
+$textFontSize: 15px;
+
+
+@mixin size ($width,$height) {
+
+    width: $width;
+    height: $height;
+}

@@ -14,29 +14,30 @@ h2 {
 }
 
 
-p {
+.text{
     margin-left: 10px;
     font-size: 14px;
     color: black;
-    text-align: center;
+    text-align: left;
 }
 
 
-.principal-text {
-    margin-left: 10px;
-    margin-right: 10px;
+.principal-text-left {
     font-size: variables.$textFontSize;
-    color: black;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.principal-text-center {
+    font-size: variables.$textFontSize;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 section {
     margin: 0px !important;
     padding: 0px;
-}
-
-.text__cuenta {
-    padding: 100x;
-    text-align: center;
 }
 
 .color__header {
@@ -66,5 +67,18 @@ section {
         background-color: black;
         color: white;
         border-color: black;
+    }
+}
+
+
+.iframe{
+    @include variables.size(300px,250px);
+    margin-top: 60px;
+}
+
+@media (min-width: 600px) {
+    .iframe {
+        width: 550px;
+        height: 350px;
     }
 }
