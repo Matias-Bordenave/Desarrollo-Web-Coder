@@ -1,20 +1,32 @@
 @use "variables";
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 
 * {
     padding: 0px;
     margin: 0px;
-    font-family: 'Kanit', sans-serif;
+    font-family: 'roboto', sans-serif;
+}
+
+/* texto */
+
+h1 {
+    font-weight: bold;
+    color: white;
 }
 
 
 h2 {
     text-align: center;
     margin-bottom: 10px;
+    margin-top: 30px;
 }
 
 
-.text{
+h3 {
+    margin-top: 30px;
+}
+
+
+.text {
     margin-left: 10px;
     font-size: 14px;
     color: black;
@@ -28,27 +40,42 @@ h2 {
     margin-left: 10px;
 }
 
+
 .principal-text-center {
     font-size: variables.$textFontSize;
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
+    margin-top: 30px;
 }
+
+
+.titulo_header {
+    text-align: center;
+    padding: 100px 0px 50px 0px;
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+/* section */
 
 section {
     margin: 0px !important;
     padding: 0px;
 }
 
+
+/* color-header */
+
 .color__header {
-    background-color: grey;
+    background-color: #686A6C;
     height: 250px;
 }
 
-.titulo_header {
-    text-align: center;
-    padding: 100px 0px 50px 0px;
-}
 
 
 .form {
@@ -71,8 +98,8 @@ section {
 }
 
 
-.iframe{
-    @include variables.size(300px,250px);
+.iframe {
+    @include variables.size(300px, 250px);
     margin-top: 60px;
 }
 
